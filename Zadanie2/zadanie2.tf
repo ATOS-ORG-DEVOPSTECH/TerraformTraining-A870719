@@ -37,6 +37,10 @@ resource "azurerm_virtual_network" "virtual_network" {
     name                = "A870719Subnet03"
     address_prefix    = "10.0.3.0/24"
   }
+
+  tags = {
+    Owner = "A870719"
+  }
 }
 
 
