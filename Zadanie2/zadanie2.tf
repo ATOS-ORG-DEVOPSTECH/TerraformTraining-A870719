@@ -17,7 +17,7 @@ data "azurerm_resource_group" "resource_group" {
 }
 
 
-resource "azurerm_virtual_network" "resource_group" {
+resource "azurerm_virtual_network" "virtual_network" {
   name                = "A870719VNET01"
   location            = data.azurerm_resource_group.resource_group.location
   resource_group_name = data.azurerm_resource_group.resource_group.name
