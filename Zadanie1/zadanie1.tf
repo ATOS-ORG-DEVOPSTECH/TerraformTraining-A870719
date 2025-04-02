@@ -13,7 +13,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "resource_group" {
     name        = "TerraformTraining-A870719"
-    location    = "West Europe"
+    location    = "France Central"
   
 }
 
