@@ -1,8 +1,3 @@
-variable "vm_name" {
-    default = "A870719VM"
-  
-}
-
 variable "vm_size" {
     default = "Standard B2s"
 }
@@ -45,5 +40,5 @@ variable "vm_version" {
 }
 
 variable "db_name" {
-    default = A870719VMDB1
+    default = "A870719VMDB1"
 }
